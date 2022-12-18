@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/anasayfaFragment"
+        android:icon="@drawable/home_icon2"
+        android:iconTint="@color/black"
+
+        android:title="Anasayfa"
+        android:visible="true"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/aramaEkraniFragment"
+        android:icon="@drawable/buyutec_iconu"
+        android:title="Arama Ekranı"
+        android:visible="true" />
+    <item
+        android:id="@+id/bildirimlerFragment"
+        android:icon="@drawable/bildirimler_icon2"
+
+        android:title="Bildirim Ekranı"
+        android:visible="true" />
+    <item
+        android:id="@+id/mesajlarFragment"
+        android:icon="@drawable/dm_box"
+        android:title="Mesaj Ekranı"
+        android:visible="true" />
+</menu>
